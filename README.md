@@ -1,13 +1,13 @@
-# greenlight-inspector
+# react-html-inspector
 
 > React HTML inspector
 
-[![NPM](https://img.shields.io/npm/v/greenlight-inspector.svg)](https://www.npmjs.com/package/greenlight-inspector) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-html-inspector.svg)](https://www.npmjs.com/package/react-html-inspector) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save greenlight-inspector
+npm install --save react-html-inspector
 ```
 
 ## Usage
@@ -15,13 +15,13 @@ npm install --save greenlight-inspector
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'greenlight-inspector'
-import 'greenlight-inspector/dist/index.css'
+import MyComponent from 'react-html-inspector'
+import 'react-html-inspector/dist/index.css'
 
 class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+	render() {
+		return <MyComponent />
+	}
 }
 ```
 
