@@ -5174,6 +5174,13 @@ get-own-enumerable-property-symbols@^3.0.0:
   resolved "https://registry.yarnpkg.com/get-own-enumerable-property-symbols/-/get-own-enumerable-property-symbols-3.0.2.tgz#b5fde77f22cbe35f390b4e089922c50bce6ef664"
   integrity sha512-I0UBV/XOz1XkIJHEUDMZAbzCThU/H8DxmSfmdGcKPnVhu2VfFqr34jr9777IyaTYvxjedWhqVIilEDsCdP5G6g==
 
+get-selector@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/get-selector/-/get-selector-1.0.4.tgz#ce7b1da24a9eb2ea4c104158b91beed202ad7247"
+  integrity sha512-F5W//a6qQcDDwCqnT6dtEAPZS9zTKyg856JM7kkdzXGrR33sKh5ZPr0QeorAxUZDOWW+6ReSsBuj8CyREBOYkA==
+  dependencies:
+    is-el "^1.0.0"
+
 get-stdin@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
@@ -5981,6 +5988,11 @@ is-docker@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/is-docker/-/is-docker-2.1.1.tgz#4125a88e44e450d384e09047ede71adc2d144156"
   integrity sha512-ZOoqiXfEwtGknTiuDEy8pN2CfE3TxMHprvNer1mXiqwkOT77Rw3YVrUQ52EqAOU3QAWDQ+bQdx7HJzrv7LS2Hw==
+
+is-el@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-el/-/is-el-1.0.0.tgz#418ea5d8f36d3975892cf5c5629d569ab62c5326"
+  integrity sha1-QY6l2PNtOXWJLPXFYp1WmrYsUyY=
 
 is-extendable@^0.1.0, is-extendable@^0.1.1:
   version "0.1.1"
