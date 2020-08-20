@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react-html-inspector
+yarn add react-html-inspector
 ```
 
 ## Usage
@@ -15,12 +15,11 @@ npm install --save react-html-inspector
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-html-inspector'
-import 'react-html-inspector/dist/index.css'
+import HTMLInspector from 'react-html-inspector'
 
 class Example extends Component {
 	render() {
-		return <MyComponent />
+		return <HTMLInspector />
 	}
 }
 ```
